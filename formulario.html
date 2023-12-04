@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <title>Donate  Blood</title>
+  
+</head>
+<body>
+
+    <header>
+        <h1>Seja um Doador de Sangue</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html"">Requisitos</a></li>
+                <li><a href="/motivos.html"">Motivos</a></li>
+                <li><a href="/formulario.html"">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+
+    <center><h1>Formulario Doação</h1></center>
+    <br><br>
+
+<section class="formulario" id="section_2"></section>
+<div class="text-center">
+  
+  <div class="container">
+    <form action="https://formsubmit.co/gabrieljoanol80@gmail.com" method="POST" @submit="enviarFormulario">
+        <input type="hidden" name="_captcha" value="false">
+      <div class="row">
+        <div class="col-75">
+          <label for="lname">Nome</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="nome" placeholder="Escreva seu Nome.">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-75">
+          <label for="lname">Email</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="email" placeholder="Escreva seu Email.">
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-75">
+          <label for="lname">Sua Idade</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="idade" placeholder="Coloque sua Idade.">
+        </div>
+      </div>
+      <br> 
+      <div class="row">
+        <div class="col-75">
+          <label for="lname">Escolha o dia para doar sangue.</label>
+        </div>
+        <div class="col-75">
+          <input type="date" id="fname"  pattern="dd/mm/yyyy" name="dia marcado" placeholder="Escolha o dia para doar sangue.">
+        </div>
+      </div><br>
+      <div class="row">
+       <center> <input type="submit" value="enviar"></center>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <p> &copy;  2023 Full Tech House. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
