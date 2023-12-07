@@ -110,7 +110,7 @@ input[type=submit] {
 }
 
 input[type=date] {
-  background-color: rgba(81, 81, 81, 0.67);
+  background-color: rgba(0, 0, 0, 0.247);
   color: whitesmoke;
   padding: 12px 20px;
   border: none;
