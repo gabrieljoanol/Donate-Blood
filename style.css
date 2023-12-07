@@ -20,7 +20,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 20px;
-  font-size: 12px;
+  
 }
 
 nav a {
@@ -164,3 +164,8 @@ input[type=date] {
     padding-inline-end: 50px;
 }
 
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 12px;
+}
